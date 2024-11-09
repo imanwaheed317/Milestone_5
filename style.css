@@ -1,0 +1,128 @@
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333;
+}
+
+/* Form Container */
+form {
+  background-color: #eaf7ff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  margin: 20px auto;
+  font-family: 'Georgia', serif;
+}
+
+/* Main Heading */
+h1 {
+  text-align: center;
+  color: #003f63;
+  font-family: 'Georgia', serif;
+}
+
+/* Section Headers */
+legend {
+  font-weight: bold;
+  color: #005580;
+  font-size: 1.3em;
+  margin-bottom: 8px;
+}
+
+/* Label Text */
+label {
+  display: block;
+  margin-top: 10px;
+  color: #005580;
+}
+
+/* Input Fields and Textarea */
+input[type="text"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #049dbf;
+  border-radius: 6px;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #049dbf;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+  background-color: #027a9c;
+  transform: scale(1.02);
+}
+
+/* Resume Display Section */
+#resume-display {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Resume Titles */
+#resume-display h2, #resume-display h3 {
+  color: #005580;
+  border-bottom: 2px solid #049dbf;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Resume Text */
+#resume-display p {
+  color: #444;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Shareable Link Container */
+#shareable-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#shareable-link {
+  color: #049dbf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#shareable-link:hover {
+  text-decoration: underline;
+}
+
+#download-pdf {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #027a9c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+#download-pdf:hover {
+  background-color: #005f7e;
+}
